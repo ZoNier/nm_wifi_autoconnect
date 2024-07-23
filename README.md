@@ -24,10 +24,10 @@ This script automatically configures and connects to a Wi-Fi network on a Linux 
     sudo chmod +x /opt/nm_wifi_autoconnect.sh
     ```
 
-3. (Optional) Add a cron job to run the script every 5 minutes:
+3. Add a cron job to run the script every 5 minutes:
 
     ```sh
-    crontab -e
+    sudo crontab -e
     ```
 
     Add the following line to the crontab file:
