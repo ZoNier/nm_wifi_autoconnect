@@ -14,6 +14,7 @@ This script automatically configures and connects to a Wi-Fi network on a Linux 
     ```sh
     git clone https://github.com/ZoNier/nm_wifi_autoconnect
     cd nm_wifi_autoconnect
+    nano nm_wifi_autoconnect.sh
     sudo mv nm_wifi_autoconnect.sh /opt
     ```
 
