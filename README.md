@@ -58,3 +58,11 @@ Edit the script to change the following variables according to your Wi-Fi networ
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Additional Notes for ArchLinux Users
+
+If you are using ArchLinux, you will need to install `cronie` since ArchLinux uses `systemd/timers` by default.
+
+```sh
+pacman -Syu cronie
+systemctl enable --now cronie.service
